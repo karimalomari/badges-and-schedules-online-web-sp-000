@@ -3,14 +3,14 @@ def badge_maker(name)
 end
 
 
-def batch_badge_creator(speakers)
+def batch_badge_creator(speaker)
   batch_array = []
-  speakers.each do |name|
+  speaker.each do |name|
     batch_array << badge_maker(name)
   end
   batch_array
 end
 
-def assign_rooms
+def assign_rooms(speaker)
   puts "Hello, #{name}! You'll be assigned to room #{room}!"
 end
