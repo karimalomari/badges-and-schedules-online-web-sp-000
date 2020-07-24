@@ -22,6 +22,6 @@ end
 
 
 def printer(attendees)
-  attendee_badges
+  attendee_badges = 
   attendee_rooms
 end
