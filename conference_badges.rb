@@ -10,3 +10,4 @@ def batch_badge_creator(speakers)
   end
   batch_array
 end
+
